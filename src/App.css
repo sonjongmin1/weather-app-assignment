@@ -1,0 +1,24 @@
+body{
+    background: url(https://get.wallhere.com/photo/sunlight-forest-monochrome-dark-night-nature-winter-road-branch-morning-mist-atmosphere-Freezing-light-tree-fog-leaf-weather-darkness-1440x900-px-habitat-natural-environment-atmospheric-phenomenon-black-and-white-monochrome-photography-woody-plant-532774.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.weather-box{
+    border: 3px solid white;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: azure;
+    opacity: 0.9;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
